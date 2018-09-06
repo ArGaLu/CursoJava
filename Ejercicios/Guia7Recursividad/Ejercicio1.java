@@ -1,10 +1,10 @@
 package guia7recursividad;
 public class Ejercicio1 {
     public static void main(String[] args) {
-        long factor=1;
+        int factor=1;
         System.out.println(factoreando(factor));
     }
-    public static long factoreando (long factorial){
+    public static int factoreando (int factorial){
         if(factorial==0){
             return 1;
         }
